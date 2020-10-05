@@ -11,17 +11,16 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href='index.css'>
 
-    <title>Hello, world!</title>
+    <title>Huiming Shi</title>
 </head>
 
 <body>
     <div class="container-fluid contents">
         <div class="top container-fluid">
-            <h1>Hazel Shi</h1>
-            <h5>A Software Developer and Tester for Hire</h5>
+            <h1>Huiming Shi</h1>
         </div>
         <div class="photo container-fluid">
-    <!-- <img src="./asset/Photo.jpg" class="img-thumbnail"> -->
+            <!-- <img src="./asset/Photo.jpg" class="img-thumbnail"> -->
 
             <table class="table table-borderless">
                 <tbody>
@@ -36,7 +35,7 @@
                     <tr>
                         <th scope="row">Email</th>
                         <td>
-                            <a href="mailto: shihm714@gmail.com">shihm714@gmail.com</a>
+                            <a href="mailto: huiming.shi@uwaterloo.ca">huiming.shi@uwaterloo.ca</a>
                         </td>
                     </tr>
                     <tr>
@@ -47,58 +46,120 @@
             </table>
         </div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
+
             <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="project-tab" data-toggle="tab" href="#project" role="tab"
-                    aria-controls="project" aria-selected="true">Show Cases</a>
+                <a class="nav-link active" id="CV-tab" data-toggle="tab" href="#CV" role="tab" aria-controls="CV"
+                    aria-selected="true">CV</a>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" id="CV-tab" data-toggle="tab" href="#CV" role="tab" aria-controls="CV"
-                    aria-selected="false">CV</a>
+                <a class="nav-link" id="transcript-tab" data-toggle="tab" href="#transcript" role="tab"
+                    aria-controls="transcript" aria-selected="false">Transcripts</a>
             </li>
-            
+            <li class="nav-item" role="presentation">
+                <a href="https://www.researchgate.net/scientific-contributions/16064285-Huiming-Shi">Publications</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="project-tab" data-toggle="tab" href="#project" role="tab"
+                    aria-controls="project" aria-selected="false">Show Cases</a>
+            </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="project" role="tabpanel" aria-labelledby="project-tab">
+            <div class="tab-pane fade" id="project" role="tabpanel" aria-labelledby="project-tab">
                 <div class="nav" style="margin: 20px 0;">
-                    <div class="card" style="width: 18rem;margin:10px 0;" >
+                    <div class="card" style="width: 18rem;margin:10px 0;">
                         <a href="https://shihm.github.io/bfs/">
-                        <img src="./asset/bfs.gif" class="card-img-top" style="height: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Broad first search</h5>
-                            <p class="card-text">A canvas with random points to show how broad first search work.</p>
-                        </div>
-                    </a>
+                            <img src="./asset/bfs.gif" class="card-img-top" style="height: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Broad first search</h5>
+                                <p class="card-text">A canvas with random points to show how broad first search work.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div class="card" style="width: 18rem;margin:10px 0;">
-                        <a  href="https://shihm.github.io/gameLife/">
-                        <img src="./asset/gamelife.gif" class="card-img-top" style="height: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Conway's Game of Life</h5>
-                            <p class="card-text">A grid to play Conway's Game of Life. </p>
-                        </div>
-                    </a>
+                        <a href="https://shihm.github.io/gameLife/">
+                            <img src="./asset/gamelife.gif" class="card-img-top" style="height: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Conway's Game of Life</h5>
+                                <p class="card-text">A grid to play Conway's Game of Life. </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="CV" role="tabpanel" aria-labelledby="CV-tab">
-                <embed src="./asset/HShi.pdf" width="800px" height="2100px" />
+            <div class="tab-pane fade show active" id="CV" role="tabpanel" aria-labelledby="CV-tab">
+                <embed src="./asset/resume.pdf" width="800px" height="1000px" />
             </div>
-            
-        </div>
-    </div>
+            <div class="tab-pane fade" id="transcript" role="tabpanel" aria-labelledby="transcript-tab">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    M.Eng, University of Waterloo, Canada
+                                </button>
+                            </h2>
+                        </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <embed src="./asset/SSR_TSRPT.pdf" width="800px" height="2100px" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    M.S., Peking University, China
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <img src="./asset/pkugrad.jpg" class="img-fluid" alt="Responsive image"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    B.S., Peking University, China
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <img src="./asset/pkuun.jpg" class="img-fluid" alt="Responsive image"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 
 </body>
 
